@@ -7,7 +7,7 @@ function AttendantSearch() {
 
   return (
     <input
-      placeholder='Buscá un regalo para Sami'
+      placeholder='¡Buscate y confirmá!'
       className='TodoSearch'
       value={searchValue}
       onChange={(event) => {
