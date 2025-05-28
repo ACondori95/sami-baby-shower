@@ -1,5 +1,5 @@
 {
-  "name": "platzi-intro-react-base",
+  "name": "sami-baby-shower-regalos",
   "version": "0.1.0",
   "dependencies": {
     "axios": "^1.9.0",
@@ -33,7 +33,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://ACondori95.github.io/react-todo-list",
+  "homepage": "https://github.com/ACondori95/sami-baby-shower",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
