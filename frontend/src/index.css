@@ -4,6 +4,7 @@ body {
   background-image: url(./images/fondo-baby.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #1e1e1f;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
