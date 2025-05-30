@@ -6,7 +6,7 @@ import {EmptyTodos} from "../../ui/EmptyTodos";
 import {AttendantSearch} from "../../ui/AttendantSearch";
 import {AttendantList} from "../../ui/AttendantList";
 import {AttendantLoading} from "../../ui/AttendantLoading";
-import {CreateAttendantButton} from "../../ui/CreateAttendantButton";
+// import {CreateAttendantButton} from "../../ui/CreateAttendantButton";
 import {AttendantItem} from "../../ui/AttendantItem";
 
 function HomePage() {
@@ -41,7 +41,7 @@ function HomePage() {
         ))}
       </AttendantList>
 
-      <CreateAttendantButton onClick={() => navigate("/new")} />
+      {/* <CreateAttendantButton onClick={() => navigate("/new")} /> */}
     </>
   );
 }
