@@ -6,14 +6,16 @@ function AttendantSearch() {
   const {searchValue, setSearchValue} = React.useContext(AttendantContext);
 
   return (
-    <input
-      placeholder='¡Buscate y confirmá!'
-      className='TodoSearch'
-      value={searchValue}
-      onChange={(event) => {
-        setSearchValue(event.target.value);
-      }}
-    />
+    <div className='TodoSearch-container'>
+      <input
+        placeholder='¡Buscate y Confirmá!'
+        className='TodoSearch'
+        value={searchValue}
+        onChange={(event) => {
+          setSearchValue(event.target.value);
+        }}
+      />
+    </div>
   );
 }
 

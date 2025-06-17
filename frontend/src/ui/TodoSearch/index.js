@@ -6,14 +6,16 @@ function TodoSearch() {
   const {searchValue, setSearchValue} = React.useContext(TodoContext);
 
   return (
-    <input
-      placeholder='Buscá un regalo para Sami'
-      className='TodoSearch'
-      value={searchValue}
-      onChange={(event) => {
-        setSearchValue(event.target.value);
-      }}
-    />
+    <div className='TodoSearch-container'>
+      <input
+        placeholder='Buscá un regalo para Sami'
+        className='TodoSearch'
+        value={searchValue}
+        onChange={(event) => {
+          setSearchValue(event.target.value);
+        }}
+      />
+    </div>
   );
 }
 

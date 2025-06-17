@@ -6,10 +6,11 @@
   align-items: center;
   margin-top: 24px;
   box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  border-radius: 38px;
 }
 
 .TodoItem-p {
-  margin: 24px 0 24px 24px;
+  margin: 15px 0 15px 24px;
   width: calc(100% - 120px);
   font-size: 18px;
   line-height: 24px;
