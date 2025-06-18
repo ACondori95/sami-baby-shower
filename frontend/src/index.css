@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #1e1e1f;
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Delius", cursive;
 }
 
 #root {
